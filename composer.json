@@ -79,6 +79,7 @@
         "drupal/purge_uncacheable_tagsheaders": "^1.0",
         "drupal/queue_ui": "^3.1",
         "drupal/r4032login": "~2.0",
+        "drupal/realname": "^2.0",
         "drupal/redirect": "~1.0",
         "drupal/responsive_preview": "^2.0",
         "drupal/role_delegation": "^1.2",
