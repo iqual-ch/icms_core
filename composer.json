@@ -113,6 +113,12 @@
         "northernco/ckeditor5-anchor-drupal": "^0.5.0",
         "platformsh/config-reader": "^2.4"
     },
+    "suggest": {
+        "iqual/icms_bundle_contenthub": "Provides a content type and layout for publishing categorised content.",
+        "iqual/icms_bundle_news": "Provides a content type and layout for publishing news.",
+        "iqual/icms_bundle_people": "Provides a content type and layout for publishing people with contact details, like team members.",
+        "iqual/icms_bundle_pressrelease": "Provides a content type and layout for publishing Press Releases."
+    },
     "extra": {
         "patches": {
             "drupal/core": {
