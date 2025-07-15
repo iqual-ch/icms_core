@@ -2,8 +2,12 @@
     "name": "iqual/icms_core",
     "description": "ICMS Core metapackage",
     "type": "metapackage",
-    "keywords": ["ICMS"],
-    "license": ["GPL-2.0-or-later"],
+    "keywords": [
+        "ICMS"
+    ],
+    "license": [
+        "GPL-2.0-or-later"
+    ],
     "require": {
         "php": ">=8.3",
         "ext-curl": "*",
