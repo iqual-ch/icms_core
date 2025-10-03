@@ -47,6 +47,7 @@
         "drupal/graphql": "~4.0",
         "drupal/graphql_core_schema": "1.0.x-dev",
         "drupal/graphql_extra_cache": "^1.0",
+        "drupal/graphql_focal_point": "^1.0",
         "drupal/graphql_search_api_query": "^1.2",
         "drupal/graphql_webform": "^2.0@alpha",
         "drupal/hide_revision_field": "^2.5",
