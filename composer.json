@@ -201,6 +201,9 @@
             },
             "phpoffice/phpword": {
                 "Set temp folder on readeable file system (for Platform.sh)": "patches/phpoffice-phpword-mpdf-temp-dir.patch"
+            },
+            "drupal/tmgmt": {
+                "Support for plurals for 'config' plugins (https://drupal.org/i/3554440)": "patches/3554440-tmgmt-MR141-config-plurals.diff"
             }
         }
     },
