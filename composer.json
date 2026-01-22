@@ -16,7 +16,7 @@
         "ext-simplexml": "*",
         "bower-asset/chosen": "^1.8",
         "drupal/address": "^2.0",
-        "drupal/admin_toolbar": "3.6.2",
+        "drupal/admin_toolbar": "3.6.3",
         "drupal/allowed_formats": "^3.0",
         "drupal/anchor_link": "3.0.3",
         "drupal/artifact_deployment": "^1.0@dev",
@@ -27,8 +27,8 @@
         "drupal/config_ignore": "^3.3",
         "drupal/config_import_locale": "^2.1",
         "drupal/config_split": "2.0.2",
-        "drupal/core-composer-scaffold": "11.2.8",
-        "drupal/core-recommended": "11.2.8",
+        "drupal/core-composer-scaffold": "^11.3",
+        "drupal/core-recommended": "^11.3",
         "drupal/crop": "~2.0",
         "drupal/diff": "~1.3",
         "drupal/editor_advanced_link": "^2.1",
@@ -37,14 +37,14 @@
         "drupal/entity_reference_revisions": "^1.8",
         "drupal/entity_usage": "^2.0@beta",
         "drupal/environment_indicator": "^4.0",
-        "drupal/field_group": "3.6.0",
+        "drupal/field_group": "4.0.0",
         "drupal/flat_taxonomy": "^2.0",
         "drupal/flat_menus": "^1.0",
         "drupal/flood_control": "^3.0",
         "drupal/focal_point": "~2.0",
         "drupal/frontend_routing": "^1.0",
-        "drupal/gin": "5.0.6",
-        "drupal/gin_login": "2.1.3",
+        "drupal/gin": "5.0.12",
+        "drupal/gin_login": "2.1.4",
         "drupal/graphql": "4.13.0",
         "drupal/graphql_core_schema": "1.0.x-dev",
         "drupal/graphql_extra_cache": "^1.0",
@@ -108,11 +108,11 @@
         "drupal/token": "^1.5",
         "drupal/token_or": "^2.1",
         "drupal/toolbar_language_switcher": "^2.0",
-        "drupal/translatable_config_pages": "^1.0",
+        "drupal/translatable_config_pages": "1.0.5",
         "drupal/upgrade_status": "^4.3",
         "drupal/views_bulk_operations": "^4.2",
         "drupal/views_data_export": "^1.3",
-        "drupal/webform": "6.3.0-beta5",
+        "drupal/webform": "6.3.0-beta7",
         "drush/drush": "^13.4",
         "elasticsearch/elasticsearch": "^8.11.0",
         "iqual/blokkli_starterkit": "^1.0",
@@ -135,11 +135,6 @@
     "extra": {
         "patches": {
             "drupal/core": {
-                "Date Plugin Exposed Filter": "patches/2648950-core-date-plugin-filter.diff",
-                "Views template suggestions": "patches/2923634-views-theme-hook-suggestions-d11.diff",
-                "User View Modes suggestions": "https://www.drupal.org/files/issues/2766379-17.patch",
-                "View Mode suggestions for Taxonomy Terms": "https://www.drupal.org/files/issues/core-theme-suggestion-for-taxonomy-view-modes-2767243-14.patch",
-                "fix twig theming": "https://www.drupal.org/files/issues/2024-01-22/2752443-102.patch",
                 "#2915792 Menu Item View Access over GraphQL": "https://www.drupal.org/files/issues/2024-12-17/2915792-MR-339-100.patch.diff",
                 "#3049332 PHP message: Error: Call to a member function getEntityTypeId()": "https://www.drupal.org/files/issues/2025-07-09/drupal-core--2025-07-09--3049332--mr-12460.patch",
                 "#3371959 Fix strpos NULL argument in AliasPathProcessor.php": "patches/fix-strpos-deprecation-in-alias-path-processor.patch",
@@ -159,7 +154,6 @@
                 "Wild card for exclusion #3036622": "https://www.drupal.org/files/issues/2022-11-18/3036622-config-split-exclude-6.patch"
             },
             "drupal/field_group": {
-                "#3395375 Duplicates stars in Tab": "https://www.drupal.org/files/issues/2024-08-06/3395375-6.patch",
                 "#3111107 Interim solution until this is fixed in core (https://www.drupal.org/project/drupal/issues/2546212)": "https://www.drupal.org/files/issues/2024-08-21/field_group_fix-translations_label_description-3111107-50.patch"
             },
             "drupal/menu_breadcrumb": {
@@ -184,17 +178,14 @@
                 "Back to site link fix on menu item page CUSTOM (https://drupal.org/i/3467981)": "patches/gin-3416211-484-custom.diff",
                 "Back to site link for arbitrary entities (https://drupal.org/i/3416211)": "https://git.drupalcode.org/project/gin/-/merge_requests/368.diff"
             },
-            "drupal/gin_login": {
-                "Missing link to go back to the login page (https://drupal.org/i/3396651)": "patches/gin_login-merge_requests-29.diff"
-            },
             "drupal/paragraphs_blokkli": {
                 "Media Library in Blokkli Editor is Empty When Using DB Search Server (https://drupal.org/i/3516414)": "patches/3516414-paragraphs-blokkli-media-library-typing-issue.patch"
             },
+            "drupal/translatable_config_pages": {
+                "Drupal 11.3: Fatal PHP error in TranslatableConfigPagesEntityController": "https://git.drupalcode.org/project/translatable_config_pages/-/merge_requests/6.diff"
+            },
             "phpoffice/phpword": {
                 "Set temp folder on readeable file system (for Platform.sh)": "patches/phpoffice-phpword-mpdf-temp-dir.patch"
-            },
-            "drupal/tmgmt": {
-                "Support for plurals for 'config' plugins (https://drupal.org/i/3554440)": "patches/3554440-tmgmt-MR141-config-plurals.diff"
             }
         }
     },
