@@ -191,6 +191,9 @@
             },
             "phpoffice/phpword": {
                 "Set temp folder on readeable file system (for Platform.sh)": "patches/phpoffice-phpword-mpdf-temp-dir.patch"
+            },
+            "drupal/geolocation": {
+                "#3583610 Fix: Geocoder widget sets map center but does not place marker on result (https://drupal.org/i/3583610)": "https://git.drupalcode.org/project/geolocation/-/merge_requests/123.diff"
             }
         }
     },
