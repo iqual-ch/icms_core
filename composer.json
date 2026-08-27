@@ -197,6 +197,9 @@
             },
             "phpoffice/phpword": {
                 "MPDF Writer: forward tempDir renderer option to mPDF, default to system temp dir (https://github.com/PHPOffice/PHPWord/pull/2898)": "https://github.com/PHPOffice/PHPWord/commit/740e854e87730bbd3a3c1124bc0a594496ecfccd.diff"
+            },
+            "drupal/graphql_search_api_query": {
+                "3582271 Fix PHP 8 deprecation: optional parameters before required $field in SearchApiQuery::resolve() (https://drupal.org/i/3582271)": "https://git.drupalcode.org/project/graphql_search_api_query/-/commit/21c16ca41f9ff7b7c154cb16df45602900b7632d.diff"
             }
         }
     },
