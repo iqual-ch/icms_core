@@ -100,7 +100,7 @@
         "drupal/tablefield": "^3.0",
         "drupal/tagify": "^1.2",
         "drupal/telephone_validation": "^2.4",
-        "drupal/term_sidebar": "^1.0",
+        "drupal/term_sidebar": "1.0.x-dev",
         "drupal/texts": "^1.0",
         "drupal/tmgmt": "^1.15",
         "drupal/tmgmt_deepl": "^2.2",
