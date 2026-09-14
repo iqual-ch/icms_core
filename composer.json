@@ -97,6 +97,7 @@
         "drupal/search_api_elasticsearch_client": "^1.0",
         "drupal/shs": "~3.0",
         "drupal/simple_sitemap": "^4.1",
+        "drupal/single_language_url_prefix": "^2.1",
         "drupal/svg_image": "^3.0",
         "drupal/symfony_mailer_lite": "^2.0",
         "drupal/tablefield": "^3.0",
@@ -108,7 +109,7 @@
         "drupal/tmgmt_deepl": "^2.2",
         "drupal/token": "^1.5",
         "drupal/token_or": "^2.1",
-        "drupal/toolbar_language_switcher": "^2.0",
+        "drupal/toolbar_language_switcher": "2.0.0",
         "drupal/translatable_config_pages": "1.0.5",
         "drupal/upgrade_status": "^4.3",
         "drupal/views_bulk_edit": "^3.0",
@@ -193,6 +194,9 @@
             },
             "drupal/geolocation": {
                 "#3583610 Fix: Geocoder widget sets map center but does not place marker on result (https://drupal.org/i/3583610)": "https://git.drupalcode.org/project/geolocation/-/merge_requests/123/diffs.diff?diff_id=2273468"
+            },
+            "drupal/toolbar_language_switcher": {
+                "3619422 Fix TypeError on monolingual sites when building the toolbar item (https://drupal.org/i/3619422)": "https://git.drupalcode.org/project/toolbar_language_switcher/-/merge_requests/12/diffs.diff?diff_id=2439431"
             },
             "drupal/media_thumbnails_word": {
                 "3524720 Set mPDF temp dir via PDF renderer options from Drupal's file_temp_path (https://drupal.org/i/3524720)": "https://git.drupalcode.org/project/media_thumbnails_word/-/merge_requests/2/diffs.diff?diff_id=1487922"
