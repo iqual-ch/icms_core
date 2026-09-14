@@ -185,7 +185,8 @@
                 "Back to site link for arbitrary entities (https://drupal.org/i/3416211)": "https://git.drupalcode.org/project/gin/-/merge_requests/368/diffs.diff?diff_id=1335957"
             },
             "drupal/paragraphs_blokkli": {
-                "Media Library in Blokkli Editor is Empty When Using DB Search Server (https://drupal.org/i/3516414)": "https://git.drupalcode.org/project/paragraphs_blokkli/-/merge_requests/24/diffs.diff?diff_id=2387583"
+                "Media Library in Blokkli Editor is Empty When Using DB Search Server (https://drupal.org/i/3516414)": "https://git.drupalcode.org/project/paragraphs_blokkli/-/merge_requests/24/diffs.diff?diff_id=2387583",
+                "3621466 New paragraphs use the source language of the host entity, not the site default (https://drupal.org/i/3621466)": "https://www.drupal.org/files/issues/2026-09-07/paragraphs_blokkli-host-source-langcode-1.0.x.patch"
             },
             "drupal/texts": {
                 "Drush CLI for robust Texts import/export (https://drupal.org/i/3581640)": "https://git.drupalcode.org/project/texts/-/merge_requests/14/diffs.diff?diff_id=2073389"
