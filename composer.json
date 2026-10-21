@@ -45,7 +45,7 @@
         "drupal/flood_control": "^3.0",
         "drupal/focal_point": "~2.0",
         "drupal/frontend_routing": "^1.0",
-        "drupal/gin": "5.0.15",
+        "drupal/gin": "5.0.16",
         "drupal/gin_login": "^2.1",
         "drupal/graphql": "4.14.0",
         "drupal/graphql_core_schema": "1.0.x-dev",
@@ -188,9 +188,6 @@
             },
             "drupal/texts": {
                 "Drush CLI for robust Texts import/export (https://drupal.org/i/3581640)": "https://git.drupalcode.org/project/texts/-/merge_requests/14/diffs.diff?diff_id=2073389"
-            },
-            "drupal/geolocation": {
-                "#3583610 Fix: Geocoder widget sets map center but does not place marker on result (https://drupal.org/i/3583610)": "https://git.drupalcode.org/project/geolocation/-/merge_requests/123/diffs.diff?diff_id=2273468"
             },
             "drupal/toolbar_language_switcher": {
                 "3619422 Fix TypeError on monolingual sites when building the toolbar item (https://drupal.org/i/3619422)": "https://git.drupalcode.org/project/toolbar_language_switcher/-/merge_requests/12/diffs.diff?diff_id=2439431"
