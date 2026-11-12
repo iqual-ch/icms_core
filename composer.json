@@ -48,7 +48,7 @@
         "drupal/gin": "5.0.16",
         "drupal/gin_login": "^2.1",
         "drupal/graphql": "4.14.0",
-        "drupal/graphql_core_schema": "1.0.x-dev",
+        "drupal/graphql_core_schema": "^1.0.29",
         "drupal/graphql_extra_cache": "^1.0",
         "drupal/graphql_focal_point": "^1.0",
         "drupal/graphql_search_api_query": "^1.2.3",
